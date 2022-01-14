@@ -27,3 +27,7 @@ var (
 		UnmarshalFunc:    defaultUnmarshalFunc,
 	}
 )
+
+func ChangeDefaultBundleConfig(config *BundleCfg)  {
+	defaultBundleConfig=config
+}
